@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MasterChef Recipes</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Carattere&family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>👨‍🍳 Not &nbsp;a &nbsp;MasterChef, &nbsp; Chahat 🍽️</h1>
+    <p>Traditional Curated Recipes, Beautifully Presented with 🤍</p>
+  </header>
+
+  <section class="curved">
+    <h1 style="font-size: 28px;"><a href="/">Welcome to Singh's Connoisseur Corner</a></h1>
+    <h3 style="font-family: Carattere; font-size: 24px; color:#bbb">Love begins in the kitchen — in recipes passed down, in flavors remembered, in moments made to last.</h3><hr style="border-color:#777; width: 50%;">
+    <center><h2>Select a Recipe</h2>
+  
+    <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; align-items: center;">
+      <div>
+        <label for="cuisineSelector">🍽️ <b>Cuisine</b></label><br/><br>
+        <select id="cuisineSelector">
+          <option value="Indian">Indian</option>
+          <option value="Italian">Italian</option>
+        </select>
+      </div>
+      &nbsp;&nbsp;&nbsp;
+      <div>
+        <label for="recipeSelector">📜 <b>Recipe</b></label><br/><br>
+        <select id="recipeSelector"></select>
+      </div>
+    </div></center>
+  </section>
+  
+
+  <main id="markdown-content" class="markdown-body curved-section">
+    <p>Loading recipe...</p>
+  </main>
+
+  <footer>
+    <p>Made with ❤️ by Chahat Singh</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="script.js"></script> <!-- ✅ move here -->
+  <script>
+    function loadMarkdown(file) {
+      console.log("Trying to load:", file);
+      fetch(file)
+        .then(res => {
+          console.log("Fetch response:", res.status);
+          if (!res.ok) throw new Error("Fetch failed: " + res.status);
+          return res.text();
+        })
+        .then(text => {
+          console.log("Fetched text length:", text.length);
+          document.getElementById("markdown-content").innerHTML = marked.parse(text);
+        })
+        .catch(err => {
+          console.error("Fetch error:", err);
+          document.getElementById("markdown-content").innerHTML =
+            "<p>⚠️ Recipe could not be loaded. Make sure the file exists and path is correct.</p>";
+        });
+    }
+  
+    document.getElementById("recipeSelector").addEventListener("change", (e) => {
+      loadMarkdown(e.target.value);
+    });
+  
+    window.onload = () => {
+      // Load welcome.md on first load
+      loadMarkdown("welcome.md");
+    };
+  </script>
+</body>
+</html>
