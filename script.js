@@ -55,6 +55,6 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   // Initial load
-  loadMarkdown("welcome.md");
+  loadMarkdown("README.md");
   populateRecipes(cuisineSelect.value);
 });
