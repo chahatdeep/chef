@@ -36,7 +36,7 @@ We believe that recipes are more than instructions—they are **stories of cultu
 
 ## 👇 Dive In!
 
-Use the dropdown menus <a href="/">above</a> to start exploring dishes.  
+Use the dropdown menus <a href="/chef">above</a> to start exploring dishes.  
 Or just scroll, discover, and get inspired.
 
 > _Cook with your heart, serve with your soul._
