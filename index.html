@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>MasterChef Recipes</title>
+  <title>Connoisseur Corner Recipes</title>
   <link rel="stylesheet" href="style.css"/>
   <link href="https://fonts.googleapis.com/css2?family=Carattere&family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
 </head>
@@ -14,7 +14,7 @@
   </header>
 
   <section class="curved">
-    <h1 style="font-size: 28px;"><a href="/">Welcome to Singh's Connoisseur Corner</a></h1>
+    <h1 style="font-size: 28px;"><a href="/chef">Welcome to Singh's Connoisseur Corner</a></h1>
     <h3 style="font-family: Carattere; font-size: 24px; color:#bbb">Love begins in the kitchen — in recipes passed down, in flavors remembered, in moments made to last.</h3><hr style="border-color:#777; width: 50%;">
     <center><h2>Select a Recipe</h2>
   
@@ -61,7 +61,7 @@
         .catch(err => {
           console.error("Fetch error:", err);
           document.getElementById("markdown-content").innerHTML =
-            "<p>⚠️ Recipe could not be loaded. Make sure the file exists and path is correct.</p>";
+            "<p>⚠️ Recipe could not be loaded. Make sure the file exists and the path is correct.</p>";
         });
     }
   
