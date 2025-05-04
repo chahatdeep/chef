@@ -10,7 +10,8 @@ document.addEventListener("DOMContentLoaded", function () {
       "Indian/Aam Ka Achaar (Alternative).md",
       "Indian/Dal Makhani.md",
       "Indian/Sankhla Kulfi.md",
-      "Indian/Pahadi Maggi.md"
+      "Indian/Pahadi Maggi.md",
+      "Indian/Indian Pico de Gallo.md"
     ],
     Italian: [
       "Italian/Spaghetti Aglio e Olio.md"
