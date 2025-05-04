@@ -46,4 +46,18 @@
 
 ---
 
+## 🎥 Video Tutorial
+
+For a visual guide, watch this video (skip garlic):
+
+<div class="iframe-wrapper">
+  <iframe 
+    src="https://www.youtube.com/embed/qILC1b7ZeBw"
+    title="Aam Ka Achaar"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+  </iframe>
+</div>
+
 Enjoy this spicy, tangy achaar with hot parathas, dal chawal, or khichdi! 🫙✨
