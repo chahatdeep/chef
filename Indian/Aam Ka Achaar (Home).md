@@ -35,5 +35,3 @@
 - Store in a cool dry place. Enjoy with paratha or dal-chawal!
 
 ---
-
-_© 2025 by chahatdeep | MasterChef Indian Recipes_
