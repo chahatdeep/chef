@@ -158,3 +158,12 @@ button:hover {
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
   margin: 1.5rem auto;
 }
+
+
+/* Add logo CSS */
+.logo {
+  height: 50px;
+  border-radius: 12px;
+  vertical-align: middle;
+  margin-right: 1rem;
+}
