@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
     Indian: [
       "Indian/Aam Ka Achaar (Home).md",
       "Indian/Aam Ka Achaar (Alternative).md",
-      "Indian/Dal Makhani.md"
+      "Indian/Dal Makhani.md",
       "Indian/Sankhla Kulfi.md"
     ],
     Italian: [
