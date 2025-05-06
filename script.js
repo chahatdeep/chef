@@ -6,7 +6,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const recipes = {
     Indian: [
+<<<<<<< HEAD
       "None.md",
+=======
+      "",
+>>>>>>> 42a8345f19939574b057803b9d0c517fc337af60
       "Indian/Aam Ka Achaar (Home).md",
       "Indian/Aam Ka Achaar (Alternative).md",
       "Indian/Dal Makhani.md",
