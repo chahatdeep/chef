@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const recipes = {
     Indian: [
-      "README.md",
+      "None.md",
       "Indian/Aam Ka Achaar (Home).md",
       "Indian/Aam Ka Achaar (Alternative).md",
       "Indian/Dal Makhani.md",
