@@ -1,0 +1,41 @@
+Add Tag:
+  - Keto
+Add Recipes:
+  - Cauliflower Fried Rice
+  - Tomato Soup
+  - Keto Pizza
+  - Brown Butter Salmon
+  - Lettuce Taco
+  - Bruschetta Grilled Chicken
+  - Cheeseburger Cabbage Wraps
+  - Pindhi Cholle
+  - Butter Chicken
+  - Veg Chowmein (with Mushroom Powder)
+  - Chilli Paneer
+  - Chole Bhature
+  - Delhi Pav Bhaji (Mumbai waalon - your recipe coming soon xD)
+  - Egg Roll
+  - Chicken Biryani
+  - Palak Paneer
+  - Shahi Paneer
+  - Veg/Chicken Manchurian
+  - Malai Kofta
+  - Chicken Tikka/Paneer Tikka
+  - One-Pot (Pressure Cooker) Chicken Curry
+  - Honey Chilli Potato
+  - 5003's Triple-M P (Methi Malai Mutter Paneer - Thanks Vinayak)
+  - Kada Prasad
+  - Railway Aloo Puri
+  - Soya Manchurian
+  - Paneer Bhurji
+  - Seekh Kabab
+  - Fried Chicken Burger
+  - La Zi Ji (Use Chilli Crisps)
+  - 5 Kinds of Eggs (Half Boiled, Boiled, Desi Omelette, French Omelette, Scrambled Eggs)
+  - Hara Bhara Kabab
+  - Cholle Matar Kulche
+  - Tokri Chaat
+  - Egg Bhurji
+  - Chicken Makhani Pizza
+  - Tandoori Broccoli
+  - 
