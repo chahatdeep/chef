@@ -1,5 +1,8 @@
 Add Tag:
   - Keto
+  - Condiments
+
+
 Add Recipes:
   - Cauliflower Fried Rice
   - Tomato Soup
@@ -38,4 +41,20 @@ Add Recipes:
   - Egg Bhurji
   - Chicken Makhani Pizza
   - Tandoori Broccoli
-  - 
+  - Dahi Kabab
+  - Ragda Patties
+  - Paneer Afghani
+  - Kurkuri Bhindi
+  - Vada Pav
+  - Dabeli
+  - Jini Dosa
+  - Handi Chicken/Handi Mushroom
+  - Dal Khichdi
+  - Kadhai Paneer
+  - Chilli Chicken
+  - Thai Green Curry
+  - Spring Roll
+  - Soya Keema with Naan
+  - Burnt Garlic Rice
+  - Chicken 65
+  - Corn Crisps
